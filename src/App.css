@@ -90,8 +90,29 @@
   margin-left: 40px;
 }
 
+.continue-button {
+    padding: 15px 25px;
+    font-size: 23px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 40px;
+
+  }
+
+.continue-button:hover {
+    background-color: #45a049;
+}
+
 .get-started-button:hover {
   background-color: #45a049;
+}
+
+.get-started-button1:hover {
+    background-color: #45a049;
 }
 
 /* ProductList.css */

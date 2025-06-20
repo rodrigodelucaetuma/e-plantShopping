@@ -60,7 +60,7 @@ body {
 }
 
 /* Product Card */
-.product-card {
+.product-display {
     flex: 0 0 calc(33.33% - 20px); /* Adjust width for 3 cards per row with 20px gap */
     max-width: calc(26.33% - 20px); /* Adjust max-width for 3 cards per row with 20px gap */
     margin-bottom: 20px;
@@ -75,29 +75,29 @@ body {
 }
 
 /* Pseudo-classes - Hover effect on product button */
-.product-card:hover {
+.product-display:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
     z-index: 1;
 }
 
-.product-title {
+.product-name {
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.product-price {
+.product-cost {
     color: #e74c3c;
     font-size: 1.2rem;
     margin-bottom: 10px;
 }
 
-.product-image {
+.product-img {
     max-width: 100%;
     height: 200px; /* Adjust height for better consistency */
 }
 
-.product-button {
+.add-to-cart-btn {
     background-color: #e74c3c;
     color: #fff;
     border: none;
@@ -107,12 +107,12 @@ body {
     margin-top: 10px;
 }
 
-.product-button:hover {
+.add-to-cart-btn:hover {
     background-color: #c0392b;
 }
 
 /* Pseudo-elements - Sale badge */
-.product-card::before {
+.product-display::before {
     content: "SALE";
     background-color: #e74c3c;
     color: #fff;
