@@ -58,12 +58,15 @@
 }
 
 .content h1 {
-  font-size: 48px;
-  margin-bottom: 10px;
+  font-size: 35px;
+  margin-bottom: 20px;
+  padding: 2px;
+  margin-left: 40px;
 }
 
 .content p {
-  font-size: 25px;
+  font-size: 20px;
+  margin-left: 40px;
 }
 
 .divider {
@@ -71,6 +74,7 @@
   height: 2px;
   background-color: #4caf50;
   margin: 10px 0;
+  margin-left: 40px;
 }
 
 .get-started-button {
@@ -83,6 +87,7 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-top: 40px;
+  margin-left: 40px;
 }
 
 .get-started-button:hover {
@@ -131,6 +136,7 @@
 
   .aboutus_container {
     margin-top: 20px; /* Adjust as needed */
+    margin-right: 45px;
     width: 80%; /* Adjust as needed */
   }
 }

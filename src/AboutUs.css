@@ -1,8 +1,9 @@
 .about-us-container {
     width: 1000px;
     /* margin: 0 auto; */
-    /* padding: 20px; */
     /* background-color: red; */
+    padding-right: 280px;
+    margin-right: 280px;
     text-align: justify;
   }
   
@@ -17,6 +18,7 @@
     font-size: 18px;
     color: #666;
     margin-bottom: 30px;
+    
     text-align: center;
   }
   
