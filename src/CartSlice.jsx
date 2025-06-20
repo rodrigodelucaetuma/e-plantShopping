@@ -5,6 +5,7 @@ export const CartSlice = createSlice({
   initialState: {
     items: [],
   },
+
   reducers: {
     addItem: (state, action) => {
       const { name, image, cost } = action.payload;
@@ -15,6 +16,7 @@ export const CartSlice = createSlice({
         state.items.push({ name, image, cost, quantity: 1 });
       }
     },
+    
     removeItem: (state, action) => {
       const nameToRemove = action.payload;
       state.items = state.items.filter(item => item.name !== nameToRemove);
